@@ -1,26 +1,17 @@
-
-body {
-    background-color: brown;
+nav {
+    float: left;
+    width: 50%;
+    position:static;
 }
-
 
 @media (max-width: 500px) {
     header {
         font-family: "Lucida Console", Courier, monospace;
     }
-    .navbar {
-        float: left;
-        width: 50%;
-    }
+    
      
     body {
         background-color: beige;
     }
   }
-
-@media (orientation: landscape) {
-    main {
-        color: aqua;
-    }
-}
 
