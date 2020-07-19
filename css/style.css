@@ -1,15 +1,27 @@
-nav {
-    float: left;
+#navbar {
+    position: fixed;
+    background-color: blue;
+    left: 0;
+    top: 0;
     width: 50%;
-    position:static;
+    height: 100%;
+    position: fixed;
 }
 
-@media (max-width: 500px) {
+.main-section {
+    text-align: right;
+}
+
+@media  only screen and (max-width: 500px) {
     header {
         font-family: "Lucida Console", Courier, monospace;
+        width:100%;
+        max-height:275px;
+        border:none;
+        z-index:1;
+        border-bottom:1px solid;
     }
-    
-     
+ 
     body {
         background-color: beige;
     }
